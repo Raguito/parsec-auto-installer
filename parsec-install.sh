@@ -12,7 +12,6 @@ else
 	apt update
 	apt upgrade 
 	echo "Downloading and installing dependencies"
-	mkdir .tmp-parsec-installer-files
 
 	wget http://mirrors.kernel.org/ubuntu/pool/universe/a/aom/libaom0_1.0.0.errata1-3build1_amd64.deb 
 	apt install ./libaom0_1.0.0.errata1-3build1_amd64.deb
