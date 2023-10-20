@@ -13,8 +13,6 @@ else
 	apt upgrade 
 	echo "Downloading and installing dependencies"
 	mkdir .tmp-parsec-installer-files
-	wget http://security.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/libavcodec58_4.2.7-0ubuntu0.1_amd64.deb 
-	apt install ./libavcodec58_4.2.7-0ubuntu0.1_amd64.deb
 
 	wget http://mirrors.kernel.org/ubuntu/pool/universe/a/aom/libaom0_1.0.0.errata1-3build1_amd64.deb 
 	apt install ./libaom0_1.0.0.errata1-3build1_amd64.deb
