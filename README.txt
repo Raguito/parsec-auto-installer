@@ -14,4 +14,4 @@ If you have trouble with any of them, contact their respective mantainers and ow
 	chmod +x parsec-installer.sh
 3. Run parsec-installer.sh as root
 	sudo ./parsec-installer.sh
-4. Enjoy Parsec
+4. Run parsec with parsecd
